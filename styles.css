@@ -104,3 +104,23 @@ h1{
 .carousel-item{
   padding: 7% 15%;
 }
+
+/* pricing section */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-col{
+  padding: 3% 2%;
+}
+.chih-body{
+  margin-bottom: 39px;
+}
+.lab-body{
+  margin-bottom: 39px;
+}
+.buy-btn:hover{
+  background-color: white;
+  color: black;
+}

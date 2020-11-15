@@ -11,6 +11,7 @@ h2{
   font-weight: bold;
   line-height:1.5;
 }
+
 /*heading/title section*/
 h1{
   font-family: 'Montserrat', sans-serif;
@@ -19,12 +20,9 @@ h1{
   line-height: 1.5;
 }
 .container-fluid{
-  padding:3% 10%;
+  padding:3% 10% 7%;
 }
-.dog-phone{
-  padding-top: 50px;
-  transform: rotate(20deg);
-}
+
 /*navbar*/
 .navbar{
   padding: 0 0 4.5rem;
@@ -51,13 +49,16 @@ h1{
 /*title image*/
 .dog-phone{
   width:60%;
-  transform: rotate(25%);
-  margin-left: 60px;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 /*features section*/
-.features{
+#features{
   padding: 7% 15%;
+  background-color: white;
+  position: relative;
 }
 .feat{
   text-align: center;
@@ -123,4 +124,35 @@ h1{
 .buy-btn:hover{
   background-color: white;
   color: black;
+}
+
+/* cta section */
+#cta{
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+  padding: 7% 15%;
+}
+.cta-text{
+  font-weight: bold;
+}
+
+/* footer */
+#footer{
+  text-align: center;
+}
+.btm-icon{
+  padding: 3% 1% 0;
+}
+
+/* smaller screen/mobile optimization */
+@media (max-width:1028px) {
+  .dog-phone{
+    transform: rotate(0deg);
+    position: static;
+    padding-top: 10px;
+  }
+  #title{
+    text-align: center;
+  }
 }

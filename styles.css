@@ -5,7 +5,7 @@ body{
   background-color: #ff4c68;
   color: white;
 }
-/*heading section*/
+/*heading/title section*/
 h1{
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
@@ -37,7 +37,38 @@ h1{
   font-weight: light;
 }
 
-/*button*/
+/*title buttons*/
 .dl-btn{
   margin: 5% 3% 5%
+}
+
+/*title image*/
+.dog-phone{
+  width:60%;
+  transform: rotate(25%);
+  margin-left: 60px;
+}
+
+/*features sectin*/
+.features{
+  padding: 7% 15%;
+}
+.feat{
+  text-align: center;
+  line-height: 1.5;
+}
+.feat-icon{
+  font-size: 4rem;
+  color: #ef8172;
+  padding:5% 0;
+}
+.feat-text{
+  color: #8f8f8f;
+  padding: 4.5%
+}
+.feat-header{
+  font-weight: bold;
+}
+.feat-icon:hover{
+  color:#ff4c68
 }
